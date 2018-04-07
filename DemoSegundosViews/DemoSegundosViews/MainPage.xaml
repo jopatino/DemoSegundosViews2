@@ -108,6 +108,13 @@
             </TableSection>
         </TableRoot>
     </TableView>-->
-    <TimePicker></TimePicker>
+    <!--<TimePicker x:Name="time1" TextColor="Blue">
+        
+    </TimePicker>-->
+    <WebView x:Name="wvActualidadP" 
+             Source="http://www.actualidadpanamericana.com/reconocido-influenciador-twitter-no-logra-convencer-novia-lo-deje-ir-jugar-futbol-5/"
+             Navigated="wvActualidadP_Navigated">
+             
+    </WebView>
 
 </ContentPage>

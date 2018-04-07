@@ -31,7 +31,7 @@ namespace DemoSegundosViews
         //    {
         //        progProceso.ProgressTo(1, 250, Easing.Linear);
         //    }
-            
+
         //}
 
         //private void sbNombre_Pressed(object sender, EventArgs e)
@@ -65,5 +65,12 @@ namespace DemoSegundosViews
         //    }
         //}
 
+
+        private async void wvActualidadP_Navigated(object sender, EventArgs e)
+        {
+            
+           await DisplayAlert("WebView", "Ha finalizado la carga de la página", "Aceptar");
+
+        }
     }
 }
