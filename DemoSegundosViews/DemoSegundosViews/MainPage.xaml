@@ -4,8 +4,30 @@
              xmlns:local="clr-namespace:DemoSegundosViews"
              x:Class="DemoSegundosViews.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+
+    <StackLayout>
+        <Picker x:Name="pickMusic" 
+                Title="Seleccione Opción"
+                TextColor="Azure"
+                SelectedIndexChanged="pickMusic_Changed">
+            <Picker.Items>
+                <x:String>Pop</x:String>
+                <x:String>Carranga</x:String>
+                <x:String>Rock</x:String>
+                <x:String>Opera</x:String>
+                <x:String>Salsa</x:String>
+            </Picker.Items>
+            
+        </Picker>
+        <ProgressBar x:Name="progProceso" 
+                     Progress="1">
+            
+        </ProgressBar>
+        <Button x:Name="btnSimular" 
+                BackgroundColor="Moccasin" 
+                Text="Simular"
+                Clicked="btnSimular_Clicked">
+        </Button>
+    </StackLayout>
 
 </ContentPage>
