@@ -28,6 +28,50 @@
                 Text="Simular"
                 Clicked="btnSimular_Clicked">
         </Button>
+        <SearchBar x:Name="sbNombres"
+                   Placeholder="Buscar"
+                   TextColor="SteelBlue"
+                   CancelButtonColor="Red"
+                   SearchButtonPressed="sbNombre_Pressed"
+                   TextChanged="sbNombre_Changed"
+                   >
+            
+        </SearchBar>
+        <Slider x:Name="sldEdad"
+                Maximum="100"
+                Minimum="10"
+                Value="15"
+                ValueChanged="sldEdad_Changed">
+            
+        </Slider>
+        <Label x:Name="lbEdad"
+               TextColor="Fuchsia"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               >
+            
+        </Label>
+        <Stepper x:Name="stpCantidad"
+                 Maximum="100"
+                 Minimum="10"
+                 Increment="2"
+                 BackgroundColor="BlueViolet"
+                 ValueChanged="stpCantidad_Changed"
+                >
+            
+        </Stepper>
+        <Label x:Name="lbCantidad"
+               TextColor="BlueViolet"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               >
+
+        </Label>
+        <Switch x:Name="swiDec"
+                IsToggled="True"
+                Toggled="swiDec_Toggle">
+            
+        </Switch>
     </StackLayout>
 
 </ContentPage>
