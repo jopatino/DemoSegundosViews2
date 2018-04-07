@@ -128,4 +128,7 @@
       <Name>DemoSegundosViews</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gmail.png" />
+  </ItemGroup>
 </Project>

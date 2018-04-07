@@ -5,7 +5,7 @@
              x:Class="DemoSegundosViews.MainPage">
 
 
-    <StackLayout>
+    <!--<StackLayout>
         <Picker x:Name="pickMusic" 
                 Title="Seleccione Opción"
                 TextColor="Azure"
@@ -72,6 +72,42 @@
                 Toggled="swiDec_Toggle">
             
         </Switch>
-    </StackLayout>
+        
+        
+    </StackLayout>-->
+    <!--<TableView Intent="Form">
+        <TableRoot>
+            <TableSection Title="Datos Principales">
+                <TextCell Text="Nombre" 
+                          Detail="Ingresar Nombre">
+                   
+                </TextCell>
+                <EntryCell Placeholder="Ingresar Nombre" Label="Nombre Completo">
+                    
+                </EntryCell>
+                <SwitchCell Text="Empleado">
+                    
+                </SwitchCell>
+                <ImageCell Text="Correo"
+                           Detail="Correo Electrónico" 
+                           ImageSource="gmail.png">
+                    
+                </ImageCell>
+            </TableSection>
+            <TableSection Title="Datos Secundarios">
+                <TextCell Text="Residencia" 
+                          Detail="Ingresar Dirección">
+
+                </TextCell>
+                <EntryCell Placeholder="Ingresar Dirección" Label="Ejm: Calle 24 # 17-44">
+
+                </EntryCell>
+                <SwitchCell Text="Vivienda Propia">
+
+                </SwitchCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>-->
+    <TimePicker></TimePicker>
 
 </ContentPage>
